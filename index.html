@@ -31,10 +31,10 @@
       <h2>Welcome to Jam Box</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
-      <div class="owner">
+      <div itemscope itemtype="https://schema.org/Person" class="owner">
         <h2 role="heading">Meet the owner</h2>
         <ul>
-          <li>Name: John Doe</li>
+          <li> <span itemprop="name">Name: John Doe</span></li>
           <li>Title: CEO</li>
           <li>Email: johnjoe@jambox.ca</li>
           <li>Phone: 613-000-0000</li>
@@ -60,8 +60,8 @@
         </form>
       </div>
     </main>
-    <div class="site-footer">
-      &copy; 2021 Jam Box Studios
+    <div class="site-footer" itemscope itemtype="https://schema.org/Organization">
+      &copy; <span itemprop="copyrightYear">2021</span> <span itemprop="copyrightHolder">Jam Box Studios</span>
     </div>
   </div>
 </body>
