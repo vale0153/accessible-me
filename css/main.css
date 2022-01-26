@@ -14,6 +14,10 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+p{
+  font-weight:400;
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -68,4 +72,12 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+/* MY CSS */
+
+.current a:link{
+  background:white !important;
+  border-top: 3px solid green;
+
 }
